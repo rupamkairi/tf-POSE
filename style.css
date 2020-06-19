@@ -1,0 +1,10 @@
+html,
+body {
+  margin: 0em;
+  padding: 0%;
+  text-align: center;
+}
+
+.fix-height {
+  height: 70vh;
+}
