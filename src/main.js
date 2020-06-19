@@ -4,7 +4,8 @@ function help() {
   window.alert(`
   Try to upload Images with single Person or Animal.
   You may need to tap all buttons Twice to work properly.
-  Many links wont work due to CORS issue.
+  Many links wont work due to CORS issue, in case you can download and upload to analyse.
+  Open Dev-Console if wanna go nuts!
   `);
 }
 
