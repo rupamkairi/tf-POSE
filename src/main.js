@@ -52,8 +52,21 @@ function AnalyzePose(image, model) {
       console.log(pose);
 
       pose.keypoints.forEach((element) => {
-        context.fillRect(element.position.x, element.position.y, 5, 5);
+        context.fillRect(element.position.x, element.position.y, 4, 4);
       });
+
+      // drawing body
+      drawBody(pose, context);
+      // context.beginPath();
+      // context.strokeStyle = "#00FF00";
+    
+      // // shoulders
+      // console.log([pose.keypoints[5].position.x, pose.keypoints[5].position.y]);
+      // context.moveTo(pose.keypoints[5].position.x, pose.keypoints[5].position.y);
+      // context.lineTo(pose.keypoints[6].position.x, pose.keypoints[6].position.y);
+    
+      // context.stroke();
+
     });
 }
 
