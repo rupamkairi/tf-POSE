@@ -57,15 +57,6 @@ function AnalyzePose(image, model) {
 
       // drawing body
       drawBody(pose, context);
-      // context.beginPath();
-      // context.strokeStyle = "#00FF00";
-    
-      // // shoulders
-      // console.log([pose.keypoints[5].position.x, pose.keypoints[5].position.y]);
-      // context.moveTo(pose.keypoints[5].position.x, pose.keypoints[5].position.y);
-      // context.lineTo(pose.keypoints[6].position.x, pose.keypoints[6].position.y);
-    
-      // context.stroke();
 
     });
 }
